@@ -31,4 +31,4 @@ st.bar_chart(data=filtered_data.set_index(WEEK)[[ALL_DEATHS, COVID19_DEATHS, INF
 
 st.text('* Data for 2020 is incomplete')
 st.text('Check out my Github for other projects')
-st.markdown('[https://github.com/greenfructose]')
+st.markdown('[Check Out My Github](https://github.com/greenfructose)')
