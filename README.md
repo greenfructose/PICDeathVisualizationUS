@@ -4,4 +4,4 @@ Streamlit application that visualizes deaths from Pneumonia, Influenza, and COVI
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/greenfructose/picdeathvisualizationus/main/main.py)
 
 ### TODO:
-1. Fix  X axis scale (0-100,000) and Y axis scale (1-52)
+1. Fix Y axis scale (0-100,000) and X axis scale (1-52)
