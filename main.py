@@ -20,13 +20,11 @@ def load_data(nrows):
     data.rename(lowercase, axis='columns', inplace=True)
     return data
 
-# Create a text element and let the reader know the data is loading.
-data_load_state = st.text('Loading data...')
+
 # Load 10,000 rows of data into the dataframe.
 data = load_data(10000)
-# Notify the reader that the data was successfully loaded.
-data_load_state.text('Done! (using st.cache)')
 st.subheader('Deaths per week')
+year_filter = st.slider(YEAR, 2014, 2020)
+filtered_data = data[data[YEAR] == year_filter]
 
-
-st.bar_chart(data=data[[ALL_DEATHS, PNEUMONIA_DEATHS, INFLUENZA_DEATHS, COVID19_DEATHS]])
+st.line_chart(filtered_data.set_index(WEEK)[[ALL_DEATHS, COVID19_DEATHS, INFLUENZA_DEATHS, PNEUMONIA_DEATHS]])
