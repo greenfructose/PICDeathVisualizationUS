@@ -30,4 +30,5 @@ filtered_data = data[data[YEAR] == year_filter]
 st.bar_chart(data=filtered_data.set_index(WEEK)[[ALL_DEATHS, COVID19_DEATHS, INFLUENZA_DEATHS, PNEUMONIA_DEATHS]], use_container_width=True)
 
 st.text('* Data for 2020 is incomplete')
-st.text('Check out my Github for other projects https://github.com/greenfructose')
+st.text('Check out my Github for other projects')
+st.markdown('[https://github.com/greenfructose]')
