@@ -23,7 +23,7 @@ def load_data(nrows):
 
 # Load 10,000 rows of data into the dataframe.
 data = load_data(10000)
-st.subheader('Deaths per week')
+st.subheader('Deaths per week *')
 year_filter = st.slider(YEAR, 2014, 2020)
 filtered_data = data[data[YEAR] == year_filter]
 
