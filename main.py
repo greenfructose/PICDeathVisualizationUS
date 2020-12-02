@@ -28,3 +28,5 @@ year_filter = st.slider(YEAR, 2014, 2020)
 filtered_data = data[data[YEAR] == year_filter]
 
 st.line_chart(filtered_data.set_index(WEEK)[[ALL_DEATHS, COVID19_DEATHS, INFLUENZA_DEATHS, PNEUMONIA_DEATHS]])
+
+st.text('* Data for 2020 is incomplete')
