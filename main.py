@@ -4,7 +4,7 @@ import numpy as np
 
 st.title('Weekly Deaths from Pneumonia, Influenza, or COVID-19')
 
-DATA_SOURCE = 'NCHSData47.CSV'
+DATA_SOURCE = 'https://github.com/greenfructose/PICDeathVisualizationUS/blob/main/NCHSData47.csv'
 YEAR = 'year'
 WEEK = 'week'
 ALL_DEATHS = 'all deaths'
