@@ -7,7 +7,7 @@ st.title('Weekly Deaths from Pneumonia, Influenza, or COVID-19')
 DATA_SOURCE = './NCHSData47.csv'
 YEAR = 'year'
 WEEK = 'week'
-ALL_DEATHS = 'all deaths'
+OTHER_DEATHS = 'other deaths'
 PNEUMONIA_DEATHS = 'pneumonia deaths'
 INFLUENZA_DEATHS = 'influenza deaths'
 COVID19_DEATHS = 'covid-19 deaths'
@@ -27,7 +27,7 @@ st.subheader('Deaths per week *')
 year_filter = st.slider(YEAR, 2014, 2020)
 filtered_data = data[data[YEAR] == year_filter]
 
-st.bar_chart(data=filtered_data.set_index(WEEK)[[ALL_DEATHS, COVID19_DEATHS, INFLUENZA_DEATHS, PNEUMONIA_DEATHS]], use_container_width=True)
+st.bar_chart(data=filtered_data.set_index(WEEK)[[OTHER_DEATHS, COVID19_DEATHS, INFLUENZA_DEATHS, PNEUMONIA_DEATHS]], use_container_width=True)
 
 st.text('* Data for 2020 is incomplete')
 st.markdown('[Check Out My Github](https://github.com/greenfructose)')

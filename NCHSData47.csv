@@ -1,4 +1,4 @@
-"Year","Week","Percent of Deaths Due to Pneumonia and Influenza (P&I)","Percent of Deaths Due to Pneumonia, Influenza or COVID-19 (PIC)","Expected","Threshold","All Deaths","Pneumonia Deaths","Influenza Deaths","COVID-19 Deaths","Pneumonia, Influenza or COVID-19 Deaths (PIC)"
+"Year","Week","Percent of Deaths Due to Pneumonia and Influenza (P&I)","Percent of Deaths Due to Pneumonia, Influenza or COVID-19 (PIC)","Expected","Threshold","Other deaths","Pneumonia Deaths","Influenza Deaths","COVID-19 Deaths","Pneumonia, Influenza or COVID-19 Deaths (PIC)"
 2013,40,6.6179567085,6.6179567085,6.36132,6.77011,47492,3140,3,0,3143
 2013,41,6.6527143582,6.6527143582,6.45326,6.86185,47304,3135,12,0,3147
 2013,42,6.7791269274,6.7791269274,6.55439,6.96279,47602,3216,11,0,3227
